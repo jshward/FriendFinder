@@ -1,4 +1,4 @@
-var friends = [
+module.exports = [
 	{
 		"name": "Ahmed",
 		//a perfectly cromulent soul, given to us by the class
@@ -19,11 +19,6 @@ var friends = [
 
 ]
 console.log(friends);
-function reducer(total, num) {
-	return total + num
-};
-console.log(friends[0].scores.reduce(reducer));
-
 
 
 
